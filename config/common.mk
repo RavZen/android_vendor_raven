@@ -195,7 +195,7 @@ endif
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI \
-    NexusLauncherRelease
+    Launcher3
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
