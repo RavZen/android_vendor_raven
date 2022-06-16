@@ -166,8 +166,9 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Charger
 PRODUCT_PACKAGES += \
-    product_charger_res_images
-
+    product_charger_res_images \
+    ParanoidQuickStep
+    
 # Filesystems tools
 PRODUCT_PACKAGES += \
     fsck.ntfs \
