@@ -254,7 +254,7 @@ $(call inherit-product, vendor/evolution/config/themes.mk)
 ifeq ($(TARGET_USES_MINI_GAPPS),true)
 $(call inherit-product, vendor/gms/gms_mini.mk)
 else
-$(call inherit-product, vendor/gms/gms_full.mk)
+$(call inherit-product, vendor/gms/products/gms.mk)
 endif
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
