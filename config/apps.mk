@@ -15,9 +15,7 @@
 
 # Apps
 PRODUCT_PACKAGES += \
-    EvoEgg \
     GameSpace \
-    Papers \
     RepainterServicePriv \
     SimpleDeviceConfig
 
