@@ -5,7 +5,8 @@ PRODUCT_PACKAGES += \
     GameSpace \
     GrapheneCamera \
     NetworkStackOverlay \
-    Updater
+    Updater \
+    SettingsIntelligenceGooglePrebuilt
 
 # Themes
 PRODUCT_PACKAGES += \
