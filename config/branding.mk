@@ -17,11 +17,11 @@
 #
 
 # Versioning System
-EVO_BASE_VERSION := 6.6
-EVO_CODENAME := Hellfire
+EVO_BASE_VERSION := R7 # month number
+EVO_CODENAME := Rebel
 
 # Set all versions
-EVO_BUILD_TYPE ?= UNOFFICIAL
+EVO_BUILD_TYPE ?= ZenKitchen
 
 EVO_DATE_YEAR := $(shell date -u +%Y)
 EVO_DATE_MONTH := $(shell date -u +%m)
@@ -42,8 +42,8 @@ ifeq ($(EVO_BUILD_TYPE), OFFICIAL)
     EVO_VERSION := $(TARGET_PRODUCT)-ota-$(BUILD_ID_LC)-$(shell date +%m%d%H%M)
     EVO_DELTA_VERSION := $(TARGET_PRODUCT)-delta-$(BUILD_ID_LC)-$(shell date +%m%d%H%M)
 else
-    EVO_VERSION := $(TARGET_PRODUCT)-ota-$(BUILD_ID_LC)-$(shell date +%m%d%H%M)-$(shell echo "$(EVO_BUILD_TYPE)" | tr '[:upper:]' '[:lower:]')
-    EVO_DELTA_VERSION := $(TARGET_PRODUCT)-delta-$(BUILD_ID_LC)-$(shell date +%m%d%H%M)-$(shell echo "$(EVO_BUILD_TYPE)" | tr '[:upper:]' '[:lower:]')
+    EVO_VERSION := $(TARGET_PRODUCT_SHORT)-ota-$(BUILD_ID_LC)-$(shell date +%m%d%H%M)-$(shell echo "$(EVO_BUILD_TYPE)" | tr '[:upper:]' '[:lower:]')
+    EVO_DELTA_VERSION := $(TARGET_PRODUCT_SHORT)-delta-$(BUILD_ID_LC)-$(shell date +%m%d%H%M)-$(shell echo "$(EVO_BUILD_TYPE)" | tr '[:upper:]' '[:lower:]')
 endif
 
 EVO_VERSION_PROP := $(PLATFORM_VERSION)

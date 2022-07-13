@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-PRODUCT_BRAND ?= EvolutionX
+PRODUCT_BRAND ?= RavZen
 
 # Gboard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
