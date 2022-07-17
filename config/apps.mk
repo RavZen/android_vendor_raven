@@ -17,8 +17,9 @@
 PRODUCT_PACKAGES += \
     GameSpace \
     RepainterServicePriv \
-    SimpleDeviceConfig
-
+    SimpleDeviceConfig \
+    SettingsIntelligenceGooglePrebuilt
+    
 # UDFPS Animations
 EXTRA_UDFPS_ANIMATIONS ?= false
 ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
