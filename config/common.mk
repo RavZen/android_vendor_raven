@@ -171,7 +171,8 @@ PRODUCT_PACKAGES += \
 # Extra Packages
 PRODUCT_PACKAGES += \
     QuickAccessWallet \
-    ParanoidQuickStep
+    ParanoidQuickStep  \
+    ThemePicker
     
 # Filesystems tools
 PRODUCT_PACKAGES += \
