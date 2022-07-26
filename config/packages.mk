@@ -2,15 +2,12 @@
 PRODUCT_PACKAGES += \
     DerpSetupWizard \
     GameSpace \
-    GrapheneCamera \
     NetworkStackOverlay \
-    Updater \
     SettingsIntelligenceGooglePrebuilt
 
 # Themes
 PRODUCT_PACKAGES += \
     DerpThemesStub \
-    DerpWalls \
     ThemePicker
 
 # Udfps
