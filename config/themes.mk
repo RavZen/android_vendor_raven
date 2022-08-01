@@ -24,7 +24,9 @@ PRODUCT_PACKAGES += \
     NavbarOnePlusOverlay \
     NavbarOneUiOverlay \
     NavbarSammyOverlay \
-    NavbarTecnoCamonOverlay
+    NavbarTecnoCamonOverlay \
+    EvolutionThemesStub \
+    ThemePicker
 
 # Statusbar Icons
 PRODUCT_PACKAGES += \
