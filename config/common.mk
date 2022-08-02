@@ -171,7 +171,7 @@ PRODUCT_PACKAGES += \
 # Extra Packages
 PRODUCT_PACKAGES += \
     QuickAccessWallet \
-    ParanoidQuickStep  \
+    DerpLauncherQuickStep \
     ThemePicker
     
 # Filesystems tools
@@ -200,7 +200,7 @@ endif
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI \
-    Launcher3
+    DerpLauncherQuickStep
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
