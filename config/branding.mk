@@ -15,7 +15,7 @@ STATIX_PLATFORM_VERSION := 12
 
 # Use signing keys and don't print date & time in the final zip for official builds
 ifndef STATIX_BUILD_TYPE
-    STATIX_BUILD_TYPE := UNOFFICIAL
+    STATIX_BUILD_TYPE := ZenPower
 endif
 
 ifeq ($(STATIX_BUILD_TYPE),OFFICIAL)

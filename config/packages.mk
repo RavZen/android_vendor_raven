@@ -14,7 +14,8 @@ PRODUCT_PACKAGES += \
     RepainterServicePriv \
     SimpleDeviceConfig \
     StatiXOSWalls \
-    QuickAccessWallet
+    QuickAccessWallet \
+    DerpSpace
 
 # App overrides
 $(call inherit-product, vendor/rkicons/product.mk)
@@ -32,12 +33,6 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 ifeq ($(INCLUDE_PIXEL_LAUNCHER),true)
 PRODUCT_PACKAGES += \
     PixelLauncher
-endif
-
-# Updaters
-ifeq ($(STATIX_BUILD_TYPE),OFFICIAL)
-PRODUCT_PACKAGES += \
-    Updater
 endif
 
 # Some useful shell based utilities for Android
